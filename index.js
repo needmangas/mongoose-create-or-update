@@ -11,6 +11,12 @@ module.exports = scheme => {
     * @public
     */
 
+    if (!scheme.statics) {
+
+        scheme.statics = {};
+
+    }
+
     scheme.statics.createOrUpdate = function (query, update, options) {
 
         return this.findOne(query).exec().then(doc => {

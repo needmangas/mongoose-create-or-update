@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.4 (Octobre 3, 2017)
+
+- Fix issue when using with [typegoose](https://github.com/szokodiakos/typegoose)
+
 ## 1.0.2 (December 8, 2016)
 
 - Updated packages.
